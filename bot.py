@@ -108,7 +108,7 @@ def run(serve_forever=True):
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level="DEBUG")
+    logging.basicConfig(level="INFO")
 
     parser = argparse.ArgumentParser(
             description='starts the bot')
