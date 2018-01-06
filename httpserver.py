@@ -10,7 +10,7 @@ class ItemStore(object):
 
     def __init__(self, model_dir):
         from rasa_nlu.model import Metadata, Interpreter
-        self.interpreter = Interpreter.load(model_dir, RasaNLUConfig("/home/zqh/mygit/rasa_core/mobile/mobile_nlu_model_config.json"))
+        self.interpreter = Interpreter.load(model_dir, RasaNLUConfig("mobile_nlu_model_config.json"))
         self._items = {}
 
     @app.route('/')
@@ -51,6 +51,6 @@ class ItemStore(object):
 
 
 if __name__ == '__main__':
-    model_dir = "/home/zqh/mygit/rasa_core/mobile/models/ivr/demo"
+    model_dir = "models/ivr/demo"
     store = ItemStore(model_dir)
-    store.app.run('192.168.2.45', 1235)
+    store.app.run('127.0.0.1', 1235)
