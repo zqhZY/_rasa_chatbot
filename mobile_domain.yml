@@ -1,0 +1,55 @@
+slots:
+  item:
+    type: text
+  time:
+    type: text
+  phone_number:
+    type: text
+  price:
+    type: text
+
+intents:
+  - greet
+  - confirm
+  - goodbye
+  - thanks
+  - inform_item
+  - inform_package
+  - inform_time
+  - request_management
+  - request_search
+  - deny
+
+entities:
+  - item
+  - time
+  - phone_number
+  - price
+
+templates:
+  utter_greet:
+    - "您好!，我是机器人小热，很高兴为您服务。"
+    - "你好!，我是小热，可以帮您办理流量套餐，话费查询等业务。"
+    - "hi!，人家是小热，有什么可以帮您吗。"
+  utter_goodbye:
+    - "再见，为您服务很开心"
+    - "Bye， 下次再见"
+  utter_default:
+    - "您说什么"
+    - "您能再说一遍吗，我没听清"
+  utter_thanks:
+    - "不用谢"
+    - "我应该做的"
+    - "您开心我就开心"
+  utter_ask_morehelp:
+    - "还有什么能帮您吗"
+    - "您还想干什么"
+
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_default
+  - utter_thanks
+  - utter_ask_morehelp
+  - bot.ActionSearchConsume
