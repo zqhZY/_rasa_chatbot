@@ -5,7 +5,7 @@ A Chinese task oriented chatbot in  IVR(Interactive Voice Response) domain(ç”µä¿
 - python3
 - [rasa_nlu_chi](https://github.com/crownpku/rasa_nlu_chi)
 - [rasa_core](https://github.com/RasaHQ/rasa_core)
-- stklearn
+- sklearn
 - mitie [(you can install follow here)](https://nlu.rasa.ai/installation.html#section-backends)
 
 ### train nlu model
