@@ -8,6 +8,23 @@ A Chinese task oriented chatbot in  IVR(Interactive Voice Response) domain(电�
 - sklearn
 - mitie [(you can install follow here)](https://nlu.rasa.ai/installation.html#section-backends)
 
+### dir tree
+```
+rasa_chatbot/
+├── data
+│   ├── mobile_nlu_data.json  # rasa nlu train data
+│   ├── mobile_story.md       # rasa core train data
+│   └── total_word_feature_extractor.dat  # mitie word vector feature
+├── __init__.py               # init file
+├── httpserver.py             # rasa nlu httpserver
+├── bot.py                    # ivr bot main script.
+├── mobile_domain.yml         # rasa core domain file
+├── mobile_nlu_model_config.json  # rasa nlu config file
+├── models                    # directory to save trained models
+└── README.md                 # readme file
+
+```
+
 ### train nlu model
 ```bash
 python bot.py train-nlu
