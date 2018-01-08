@@ -698,6 +698,30 @@
         ]
       },
       {
+        "text": "上月的",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "上月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "上个月的",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "上个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
         "text": "二月",
         "intent": "inform_time",
         "entities": [
@@ -801,6 +825,18 @@
             "start": 0,
             "end": 2,
             "value": "上月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "一月份",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "一月份",
             "entity": "time"
           }
         ]
@@ -1063,6 +1099,76 @@
         ]
       },
       {
+        "text": "本机的",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "自己的号码",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "我自己的",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "本机",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "我查本机的",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "查本机",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "这个手机的",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "其他的",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "其他号码的",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "不是本机的",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "别的号码的",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "别的",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "其他号码",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "非本机号码",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
         "text": "你好",
         "intent": "greet",
         "entities": []
@@ -1098,6 +1204,11 @@
         "entities": []
       },
       {
+        "text": "喂",
+        "intent": "greet",
+        "entities": []
+      },
+      {
         "text": "再见",
         "intent": "goodbye",
         "entities": []
@@ -1124,6 +1235,11 @@
       },
       {
         "text": "可以的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "恩",
         "intent": "confirm",
         "entities": []
       },

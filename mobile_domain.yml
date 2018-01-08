@@ -19,6 +19,8 @@ intents:
   - request_management
   - request_search
   - deny
+  - inform_current_phone
+  - inform_other_phone
 
 entities:
   - item
