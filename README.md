@@ -30,6 +30,10 @@ python bot.py train-nlu
 ```bash
 python bot.py train-dialogue
 ```
+### train dialogue in online mode
+```
+python bot.py online_train
+```
 
 ### test
 Run command below:
