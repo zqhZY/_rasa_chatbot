@@ -1,6 +1,9 @@
 
 ## install dependency
 
+#### python3
+install or update to python 3
+
 #### install chinese version of rasa nlu
 ```
 git clone https://github.com/crownpku/Rasa_NLU_Chi.git
