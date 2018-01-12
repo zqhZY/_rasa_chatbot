@@ -1,12 +1,8 @@
 # rasa_chatbot
 A Chinese task oriented chatbot in  IVR(Interactive Voice Response) domain(电信ivr领域， 中文)， Implement by rasa nlu and rasa core. This is a demo with toy dataset.
 
-### requirements:
-- python3
-- [rasa_nlu_chi](https://github.com/crownpku/rasa_nlu_chi)
-- [rasa_core](https://github.com/RasaHQ/rasa_core)
-- sklearn
-- mitie [(you can install follow here)](https://nlu.rasa.ai/installation.html#section-backends)
+### install dependency:
+- [follow here](https://github.com/zqhZY/rasa_chatbot/blob/master/INSTALL.md)
 
 ### dir tree
 ```
@@ -33,6 +29,10 @@ python bot.py train-nlu
 ### train dialogue
 ```bash
 python bot.py train-dialogue
+```
+### train dialogue in online mode
+```
+python bot.py online_train
 ```
 
 ### test
