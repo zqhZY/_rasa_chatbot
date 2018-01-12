@@ -770,6 +770,16 @@
         ]
       },
       {
+        "text": "三月份",
+        "intent": "inform_time",
+        "entities": []
+      },
+      {
+        "text": "三月的",
+        "intent": "inform_time",
+        "entities": []
+      },
+      {
         "text": "十一月",
         "intent": "inform_time",
         "entities": [
@@ -1081,6 +1091,30 @@
         ]
       },
       {
+        "intent": "request_management",
+        "text": "给我办理流量业务",
+        "entities": [
+          {
+            "start": 4,
+            "value": "流量",
+            "end": 6,
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "intent": "request_management",
+        "text": "给我办理流量",
+        "entities": [
+          {
+            "start": 4,
+            "value": "流量",
+            "end": 6,
+            "entity": "item"
+          }
+        ]
+      },
+      {
         "text": "给我办一个三十的新流量业务",
         "intent": "request_management",
         "entities": [
@@ -1221,6 +1255,11 @@
       {
         "text": "很高兴和你说话",
         "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "嗯",
+        "intent": "confirm",
         "entities": []
       },
       {
@@ -1396,6 +1435,21 @@
       {
         "text": "好不用了",
         "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "=",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "&",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "吃饭",
+        "intent": "unknown_intent",
         "entities": []
       }
     ],

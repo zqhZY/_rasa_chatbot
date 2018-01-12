@@ -56,6 +56,7 @@ text,intent,item
 我想办流量套餐|request_management|流量
 我想开一个新流量套餐|request_management|流量
 给我办一个新流量业务|request_management|流量
+给我办理流量业务|request_management|流量
 
 text,intent,item,price
 给我办一下便宜点的流量套餐|request_management|流量，便宜
@@ -67,6 +68,8 @@ text,intent,time
 一月|inform_time|一月
 一月份|inform_time|一月份
 一月的|inform_time|一月
+三月份|inform_time|一月份
+三月的|inform_time|一月
 是一月的|inform_time|一月
 一月|inform_time|一月
 二月|inform_time|二月
@@ -134,6 +137,7 @@ text,intent
 行的|confirm
 没问题|confirm
 恩|confirm
+嗯|confirm
 不要|deny
 不需要|deny
 不要办|deny
