@@ -1,0 +1,1839 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u7684\u6d41\u91cf\u6709\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u7684\u6d41\u91cf\u8fd9\u91cc\u8fd8\u6709\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u4e00\u4e2a\u6708\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u6708\u79df",
+            "entity": "item"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u6708\u79df\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u5e2e\u6211\u770b\u4e00\u4e0b\u8fd9\u4e2a\u624b\u673a\u7684\u90a3\u4e2a\u6d41\u91cf"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6211\u60f3\u95ee\u4e00\u4e0b\u6211\u662f\u7528\u4e86\u591a\u5c11\u8bdd\u8d39"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u770b\u770b\u6211\u5269\u6709\u591a\u5c11\u6d41\u91cf"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u4f59\u989d",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6211\u73b0\u5728\u8fd8\u6709\u591a\u5c11\u8bdd\u8d39\u4f59\u989d\u554a"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "\u4f59\u989d",
+            "entity": "item"
+          }
+        ],
+        "text": "\u67e5\u4e00\u4e0b\u8bdd\u8d39\u4f59\u989d"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6211\u90a3\u4e2a\u6d41\u91cf\u8fd8\u6709\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u4f60\u597d\u67e5\u4e0b\u6211\u8fd9\u4e2a\u6d41\u91cf\u6709\u591a\u5c11\u554a"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u5582\u4f60\u597d\u4f60\u5e2e\u6211\u67e5\u770b\u4e00\u4e0b\u6211\u7684\u6d41\u91cf"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "\u4e0a\u4e2a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u4e0a\u4e2a\u6708\u7684\u6d41\u91cf\u6709\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6069\u4f60\u597d\u554a\u7ed9\u6211\u67e5\u67e5\u6211\u7684\u6d41\u91cf"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u55ef\u4f60\u597d\u554a\u7ed9\u6211\u67e5\u67e5\u6211\u7684\u6d41\u91cf"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u8bdd\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6069\u4f60\u597d\u554a\u7ed9\u6211\u67e5\u67e5\u6211\u8bdd\u8d39\u7684\u4f7f\u7528\u60c5\u51b5"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "\u8bdd\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6211\u60f3\u770b\u4e00\u4e0b\u8bdd\u8d39"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u4f60\u7ed9\u6211\u67e5\u4e0b\u6211\u7684\u6708\u6d88\u8d39\u60c5\u51b5"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "\u8bdd\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6211\u7684\u8bdd\u8d39\u8fd8\u5269\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 11,
+            "value": "\u94b1",
+            "entity": "item"
+          }
+        ],
+        "text": "\u80fd\u4e0d\u80fd\u770b\u4e0b\u6211\u8fd8\u5269\u591a\u5c11\u94b1"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "\u8bdd\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u90a3\u4e2a\u6211\u7684\u8bdd\u8d39\u8fd8\u6709\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u4f60\u80fd\u7ed9\u6211\u770b\u4e0b\u6211\u6d88\u8d39\u591a\u5c11\u4e86\u5417"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "\u8bdd\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6211\u60f3\u77e5\u9053\u6211\u7684\u8fd9\u4e2a\u6708\u7684\u8bdd\u8d39\u55ef\u55ef"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u4f60\u7ed9\u6211\u8bf4\u6211\u7684\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "\u4e0a\u4e2a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u770b\u4e00\u4e0b\u6211\u4e0a\u4e2a\u6708\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "\u8fd9\u4e2a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u8fd9\u4e2a\u6708\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "\u8fd9\u4e2a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u6211\u60f3\u95ee\u4e00\u4e0b\u6211\u8fd9\u4e2a\u6708\u662f\u7528\u4e86\u591a\u5c11\u8bdd\u8d39"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u4f59\u989d",
+            "entity": "item"
+          },
+          {
+            "start": 1,
+            "end": 3,
+            "value": "\u73b0\u5728",
+            "entity": "time"
+          }
+        ],
+        "text": "\u6211\u73b0\u5728\u8fd8\u6709\u591a\u5c11\u8bdd\u8d39\u4f59\u989d\u554a"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "\u8fd9\u4e2a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4f60\u597d\u67e5\u4e0b\u6211\u8fd9\u4e2a\u6708\u6d41\u91cf\u6709\u591a\u5c11\u554a"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "\u672c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5582\u4f60\u597d\u4f60\u5e2e\u6211\u67e5\u770b\u4e00\u4e0b\u8fd9\u4e2a\u672c\u6708\u6211\u7684\u6d41\u91cf"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "\u5341\u4e8c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u5341\u4e8c\u6708\u7684\u6d41\u91cf\u6709\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "\u5341\u4e8c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u770b\u4e00\u4e0b\u6211\u5341\u4e8c\u6708\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "\u5341\u4e8c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u5341\u4e8c\u6708\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "\u5341\u4e8c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u6211\u60f3\u95ee\u4e00\u4e0b\u6211\u5341\u4e8c\u6708\u662f\u7528\u4e86\u591a\u5c11\u8bdd\u8d39"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "\u5341\u4e8c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4f60\u597d\u67e5\u4e0b\u6211\u5341\u4e8c\u6708\u6d41\u91cf\u6709\u591a\u5c11\u554a"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "\u5341\u4e8c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5582\u4f60\u597d\u4f60\u5e2e\u6211\u67e5\u770b\u4e00\u4e0b\u8fd9\u4e2a\u5341\u4e8c\u6708\u6211\u7684\u6d41\u91cf"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u516d\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u516d\u6708\u7684\u6d41\u91cf\u6709\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u516d\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u770b\u4e00\u4e0b\u6211\u516d\u6708\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u516d\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u516d\u6708\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u516d\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u6211\u60f3\u95ee\u4e00\u4e0b\u6211\u516d\u6708\u662f\u7528\u4e86\u591a\u5c11\u8bdd\u8d39"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "\u516d\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4f60\u597d\u67e5\u4e0b\u6211\u516d\u6708\u6d41\u91cf\u6709\u591a\u5c11\u554a"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "\u516d\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5582\u4f60\u597d\u4f60\u5e2e\u6211\u67e5\u770b\u4e00\u4e0b\u8fd9\u4e2a\u516d\u6708\u6211\u7684\u6d41\u91cf"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u4e09\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u4e09\u6708\u7684\u6d41\u91cf\u6709\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u770b\u4e00\u4e0b\u6211\u4e00\u6708\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u4e00\u6708\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u6211\u60f3\u95ee\u4e00\u4e0b\u6211\u4e00\u6708\u662f\u7528\u4e86\u591a\u5c11\u8bdd\u8d39"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "\u4e8c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4f60\u597d\u67e5\u4e0b\u6211\u4e8c\u6708\u7684\u6d41\u91cf\u6709\u591a\u5c11\u554a"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5582\u4f60\u597d\u4f60\u5e2e\u6211\u67e5\u770b\u4e00\u4e0b\u8fd9\u4e2a\u4e00\u6708\u6211\u7684\u6d41\u91cf"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4f60\u5e2e\u6211\u67e5\u770b\u4e00\u4e0b\u4e00\u6708\u6211\u7684\u6d41\u91cf"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u5f53\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u6069\u4f60\u597d\u554a\u7ed9\u6211\u67e5\u67e5\u6211\u5f53\u6708\u7684\u6d41\u91cf"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "\u8fd9\u4e2a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u55ef\u4f60\u597d\u554a\u7ed9\u6211\u67e5\u67e5\u6211\u8fd9\u4e2a\u6708\u7684\u6d41\u91cf"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u8bdd\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "\u8fd9\u4e2a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u6069\u4f60\u597d\u554a\u7ed9\u6211\u67e5\u67e5\u6211\u8bdd\u8d39\u7684\u4f7f\u7528\u60c5\u51b5\u8fd9\u4e2a\u6708\u7684"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "\u8bdd\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "\u8fd9\u4e2a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u6211\u60f3\u770b\u4e00\u4e0b\u8fd9\u4e2a\u6708\u4efd\u7684\u8bdd\u8d39"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 15,
+            "value": "\u94b1",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "\u8fd9\u4e2a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u80fd\u4e0d\u80fd\u770b\u4e0b\u6211\u8fd9\u4e2a\u6708\u7684\u8fd8\u5269\u591a\u5c11\u94b1"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "\u8bdd\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 13,
+            "value": "\u8fd9\u4e2a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u90a3\u4e2a\u6211\u7684\u8bdd\u8d39\u8fd8\u6709\u591a\u5c11\u8fd9\u4e2a\u6708"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "\u4e09\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4f60\u80fd\u7ed9\u6211\u770b\u4e0b\u6211\u4e09\u6708\u4efd\u6d88\u8d39\u591a\u5c11\u4e86\u5417"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "\u8bdd\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "\u8fd9\u4e2a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u6211\u60f3\u77e5\u9053\u6211\u7684\u8fd9\u4e2a\u6708\u7684\u8bdd\u8d39\u55ef\u55ef"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "\u4e09\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4f60\u80fd\u7ed9\u6211\u770b\u4e0b\u6211\u4e09\u6708\u4efd\u7684\u6d88\u8d39\u591a\u5c11\u4e86\u5417"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "\u8bdd\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u6211\u60f3\u95ee\u4e00\u4e0b\u6211\u4e00\u6708\u4efd\u662f\u7528\u4e86\u591a\u5c11\u8bdd\u8d39"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "\u4e09\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u7684\u4e09\u6708\u7684\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "\u4e09\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6211\u7684\u4e09\u6708\u4efd\u7684\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 12,
+            "value": "\u94b1",
+            "entity": "item"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "\u4e09\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u67e5\u4e0b\u6211\u4e09\u6708\u4efd\u7684\u7528\u4e86\u591a\u5c11\u94b1"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "\u4e09\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u90a3\u4e2a\u8bf7\u95ee\u6211\u4e09\u6708\u4efd\u7684\u4e00\u5171\u6d88\u8d39\u591a\u5c11"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 20,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 17,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "\u8bf7\u5e2e\u6211\u67e5\u4e00\u4e0b18810397783\u7684\u8bdd\u8d39"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "110",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "\u8bf7\u5e2e\u6211\u67e5\u4e00\u4e0b110\u7684\u8bdd\u8d39"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4e00\u6708"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4e00\u6708\u7684"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u662f\u4e00\u6708\u7684"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4e00\u6708"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u4e0a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4e0a\u6708\u7684"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "\u4e0a\u4e2a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4e0a\u4e2a\u6708\u7684"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u4e8c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4e8c\u6708"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u4e8c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4e8c\u6708\u7684"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "\u4e8c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u662f\u4e8c\u6708\u7684"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u4e8c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4e8c\u6708"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [],
+        "text": "\u4e09\u6708\u4efd"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [],
+        "text": "\u4e09\u6708\u7684"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "\u5341\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5341\u4e00\u6708"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "\u5341\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5341\u4e00\u6708\u7684"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "\u5341\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u662f\u5341\u4e00\u6708\u7684"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "\u5341\u4e00\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u5341\u4e00\u6708"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u4e0a\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4e0a\u6708\u7684"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "\u4e00\u6708\u4efd",
+            "entity": "time"
+          }
+        ],
+        "text": "\u4e00\u6708\u4efd"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u672c\u6708",
+            "entity": "time"
+          }
+        ],
+        "text": "\u672c\u6708\u7684"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [],
+        "text": "\u5341\u4e00\u4efd\u6708\u7684\u5427"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u8bdd\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u8bdd\u8d39"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6d88\u8d39"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6d41\u91cf"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u8bdd\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u8bdd\u8d39\u5427"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "\u6d88\u8d39",
+            "entity": "item"
+          }
+        ],
+        "text": "\u662f\u6d88\u8d39"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6d41\u91cf\u5c31\u884c"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "\u5957\u9910\u4e00",
+            "entity": "item"
+          }
+        ],
+        "text": "\u5957\u9910\u4e00\u5427"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "\u5957\u9910\u4e00",
+            "entity": "item"
+          }
+        ],
+        "text": "\u5957\u9910\u4e00"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "\u5957\u9910\u4e8c",
+            "entity": "item"
+          }
+        ],
+        "text": "\u5957\u9910\u4e8c"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "\u5957\u9910\u4e09",
+            "entity": "item"
+          }
+        ],
+        "text": "\u5957\u9910\u4e09\u5c31\u597d"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u7ed9\u6211\u529e\u4e00\u4e0b\u6d41\u91cf\u5957\u9910"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6211\u60f3\u529e\u6d41\u91cf\u5957\u9910"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u6211\u60f3\u5f00\u4e00\u4e2a\u65b0\u6d41\u91cf\u5957\u9910"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          }
+        ],
+        "text": "\u7ed9\u6211\u529e\u4e00\u4e2a\u65b0\u6d41\u91cf\u4e1a\u52a1"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "\u4fbf\u5b9c",
+            "entity": "price"
+          }
+        ],
+        "text": "\u7ed9\u6211\u529e\u4e00\u4e0b\u4fbf\u5b9c\u70b9\u7684\u6d41\u91cf\u5957\u9910"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "\u4e8c\u5341\u516b",
+            "entity": "price"
+          }
+        ],
+        "text": "\u6211\u60f3\u529e\u4e8c\u5341\u516b\u7684\u6d41\u91cf\u5957\u9910"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "\u5408\u9002",
+            "entity": "price"
+          }
+        ],
+        "text": "\u6211\u60f3\u5f00\u4e00\u4e2a\u5408\u9002\u7684\u65b0\u6d41\u91cf\u5957\u9910"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 4,
+            "value": "\u6d41\u91cf",
+            "end": 6,
+            "entity": "item"
+          }
+        ],
+        "text": "\u7ed9\u6211\u529e\u7406\u6d41\u91cf\u4e1a\u52a1"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 4,
+            "value": "\u6d41\u91cf",
+            "end": 6,
+            "entity": "item"
+          }
+        ],
+        "text": "\u7ed9\u6211\u529e\u7406\u6d41\u91cf"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "\u6d41\u91cf",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "\u4e09\u5341",
+            "entity": "price"
+          }
+        ],
+        "text": "\u7ed9\u6211\u529e\u4e00\u4e2a\u4e09\u5341\u7684\u65b0\u6d41\u91cf\u4e1a\u52a1"
+      },
+      {
+        "intent": "inform_current_phone",
+        "entities": [],
+        "text": "\u672c\u673a\u7684"
+      },
+      {
+        "intent": "inform_current_phone",
+        "entities": [],
+        "text": "\u81ea\u5df1\u7684\u53f7\u7801"
+      },
+      {
+        "intent": "inform_current_phone",
+        "entities": [],
+        "text": "\u6211\u81ea\u5df1\u7684"
+      },
+      {
+        "intent": "inform_current_phone",
+        "entities": [],
+        "text": "\u672c\u673a"
+      },
+      {
+        "intent": "inform_current_phone",
+        "entities": [],
+        "text": "\u6211\u67e5\u672c\u673a\u7684"
+      },
+      {
+        "intent": "inform_current_phone",
+        "entities": [],
+        "text": "\u67e5\u672c\u673a"
+      },
+      {
+        "intent": "inform_current_phone",
+        "entities": [],
+        "text": "\u8fd9\u4e2a\u624b\u673a\u7684"
+      },
+      {
+        "intent": "inform_other_phone",
+        "entities": [],
+        "text": "\u5176\u4ed6\u7684"
+      },
+      {
+        "intent": "inform_other_phone",
+        "entities": [],
+        "text": "\u5176\u4ed6\u53f7\u7801\u7684"
+      },
+      {
+        "intent": "inform_other_phone",
+        "entities": [],
+        "text": "\u4e0d\u662f\u672c\u673a\u7684"
+      },
+      {
+        "intent": "inform_other_phone",
+        "entities": [],
+        "text": "\u522b\u7684\u53f7\u7801\u7684"
+      },
+      {
+        "intent": "inform_other_phone",
+        "entities": [],
+        "text": "\u522b\u7684"
+      },
+      {
+        "intent": "inform_other_phone",
+        "entities": [],
+        "text": "\u5176\u4ed6\u53f7\u7801"
+      },
+      {
+        "intent": "inform_other_phone",
+        "entities": [],
+        "text": "\u975e\u672c\u673a\u53f7\u7801"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "\u4f60\u597d"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "\u60a8\u597d"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "\u60a8\u597d\u5417"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "\u55e8"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "\u4f60\u662f\u8c01"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "\u60a8\u662f"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "\u4f60\u662f\u54ea\u4e2a"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "\u5582"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "\u518d\u89c1"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "\u62dc\u62dc"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "\u5f88\u9ad8\u5174\u548c\u4f60\u8bf4\u8bdd"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "\u55ef"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "\u597d\u7684"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "\u884c"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "\u53ef\u4ee5\u7684"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "\u6069"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "\u4e2d\u4e2d"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "\u4e2d"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "\u529e\u5427"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "\u529e\u7406\u5427"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "\u884c\u7684"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "\u6ca1\u95ee\u9898"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "\u8c22\u8c22"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "\u8c22\u8c22\u60a8"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "\u8c22\u8c22\u4f60"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "\u975e\u5e38\u611f\u8c22"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "\u8c22\u8c22\u554a"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "\u8c22\u4e86"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u4e0d\u8981"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u4e0d\u9700\u8981"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u4e0d\u8981\u529e"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u4e0d\u529e"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u6682\u65f6\u4e0d\u8981\u4e86"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u4e0d\u662f"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u6709\u95ee\u9898"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u6211\u518d\u8003\u8651\u8003\u8651"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u4e0d\u597d\u5566"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u4e0d\u884c"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u4e0d\u53ef\u4ee5\u7684"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u4e0d\u4e2d"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u4e0d\u53ef\u4ee5"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u6ca1\u4e86"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u6ca1\u6709\u4e86"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u4e0d\u7528\u4e86"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u6682\u65f6\u4e0d\u7528\u4e86"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u597d\u7684\u6ca1\u4e86"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "\u597d\u4e0d\u7528\u4e86"
+      },
+      {
+        "intent": "unknown_intent",
+        "entities": [],
+        "text": "="
+      },
+      {
+        "intent": "unknown_intent",
+        "entities": [],
+        "text": "&"
+      },
+      {
+        "intent": "unknown_intent",
+        "entities": [],
+        "text": "\u5403\u996d"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [
+      {
+        "value": "\u6d88\u8d39",
+        "synonyms": [
+          "\u8bdd\u8d39",
+          "\u94b1"
+        ]
+      }
+    ]
+  }
+}

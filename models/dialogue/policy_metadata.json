@@ -1,0 +1,9 @@
+{
+  "rasa_core": "0.8.0a1",
+  "max_history": 2,
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "__main__.MobilePolicy"
+  ]
+}
