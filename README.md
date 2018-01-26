@@ -7,6 +7,7 @@ A Chinese task oriented chatbot in  IVR(Interactive Voice Response) domain(电�
 ### dir tree
 ```
 rasa_chatbot/
+├── chat_detection            # chat domain detection, todo now
 ├── data
 │   ├── mobile_nlu_data.json  # rasa nlu train data
 │   ├── mobile_story.md       # rasa core train data
