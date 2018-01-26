@@ -12,6 +12,7 @@ rasa_chatbot/
 │   ├── mobile_nlu_data.json  # rasa nlu train data
 │   ├── mobile_story.md       # rasa core train data
 │   └── total_word_feature_extractor.dat  # mitie word vector feature
+├── tools                     # tools for data process
 ├── __init__.py               # init file
 ├── httpserver.py             # rasa nlu httpserver
 ├── bot.py                    # ivr bot main script.
