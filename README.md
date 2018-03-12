@@ -1,4 +1,4 @@
-# Code of this project has been deleted, because it will be used for product. Welcome to disscuss in Issues if you are interested.
+# Code of this project has been deleted, because it will be used for product. Welcome to disscuss or get the start code in Issues if you are interested.
 
 # rasa_chatbot
 A Chinese task oriented chatbot in  IVR(Interactive Voice Response) domain， Implement by rasa nlu and rasa core. This is a demo with toy dataset.
