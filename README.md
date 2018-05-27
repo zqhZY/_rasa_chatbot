@@ -1,5 +1,5 @@
 # note:
-This project is too old to run directly and will be updated soon.(由于rasa版本更新比较大，改项目比较老，以至于无法直接运行，稍后根据最新api调试后更新。)
+This project is too old to run directly and will be updated soon.(由于rasa版本更新比较大，该项目比较老，以至于无法直接运行，稍后根据最新api调试后更新。)
 
 # rasa_chatbot
 A Chinese task oriented chatbot in  IVR(Interactive Voice Response) domain， Implement by rasa nlu and rasa core. This is a demo with toy dataset.
