@@ -26,7 +26,23 @@ rasa_chatbot/
 
 ### train nlu model
 ```bash
-python bot.py train-nlu
+python -m rasa_nlu.train --config  mobile_nlu_model_config.json --data data/mobile_nlu_data.json  --path models
+```
+### test rasa nlu
+```
+$python -m rasa_nlu.server --path projects
+$ curl -X POST localhost:5000/parse -d '{"q":"hello"}' | python -m json.tool
+{
+    "intent": {
+        "name": "greet",
+        "confidence": 1.0
+    },
+    "entities": [],
+    "text": "hello",
+    "project": "default",
+    "model": "fallback"
+}
+
 ```
 
 ### train dialogue

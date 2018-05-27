@@ -4,12 +4,9 @@
 #### python3
 install or update to python 3
 
-#### install chinese version of rasa nlu
+#### install rasa_core, this will install rasa nlu too, and now support chinese.
 ```
-git clone https://github.com/crownpku/Rasa_NLU_Chi.git
-cd rasa_nlu
-pip install -r requirements.txt
-python setup.py install
+pip install rasa_core
 ```
 
 #### install sklearn and MITIE
@@ -17,10 +14,4 @@ python setup.py install
 ```
 pip install -U scikit-learn sklearn-crfsuite
 pip install git+https://github.com/mit-nlp/MITIE.git
-```
-
-#### install rasa_core
-
-```
-pip install rasa_core
 ```
