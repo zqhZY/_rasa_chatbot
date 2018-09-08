@@ -2,15 +2,18 @@ import json
 
 
 from klein import Klein
-from rasa_nlu.config import RasaNLUConfig
+# from rasa_nlu.config import RasaNLUConfig
 
 
 class ItemStore(object):
     app = Klein()
 
-    def __init__(self, model_dir):
-        from rasa_nlu.model import Metadata, Interpreter
-        self.interpreter = Interpreter.load(model_dir, RasaNLUConfig("mobile_nlu_model_config.json"))
+    def __init__(self, ivr_model, chat_detection_model, ivr_config, chat_detection_config, enable_chat_detection):
+        from rasa_nlu.model import Interpreter
+        self.interpreter = Interpreter.load(ivr_model)
+        self.enable_chat_detection = enable_chat_detection
+        if enable_chat_detection:
+            self.chat_detection = Interpreter.load(chat_detection_model)
         self._items = {}
 
     @app.route('/')
@@ -26,8 +29,28 @@ class ItemStore(object):
         print(data)
         request.setResponseCode(200)
 
-        pred = self.interpreter.parse(data["text"])
+        """
+            check if input is task or non_task first
+        """
+        if self.enable_chat_detection:
+            chat_detection_pred = self.chat_detection.parse(data["text"])
+            print("chat_detection_pred--->{}".format(chat_detection_pred))
+            intent = chat_detection_pred.get("intent").get("name")
+            if intent == "non_task":
+                data["intent"] = intent
+                data["entities"] = {}
+                return json.dumps(data, ensure_ascii=False)
+
+        """
+            if text is mobile ivr domain, pred using ivr model
+        """
+        pred = self.interpreter.parse(data["q"])
+
+        print(pred)
+        #reg_res = pred.get("regulation_result")
         data["intent"] = pred.get("intent").get("name")
+        #if reg_res != None:
+        #    data["intent"] = reg_res
 
         entities = pred.get("entities")
         entities_res = {}
@@ -51,6 +74,9 @@ class ItemStore(object):
 
 
 if __name__ == '__main__':
-    model_dir = "models/ivr/demo"
-    store = ItemStore(model_dir)
+    ivr_model = "projects/ivr_nlu/demo"
+    chat_detection_model = "models/ivr/demo_chat_detection"
+    ivr_config = "ivr_chatbot.yml"
+    chat_detection_config = "chat_detection/mobile_chat_detection_model_config.json"
+    store = ItemStore(ivr_model, chat_detection_model, ivr_config, chat_detection_config, enable_chat_detection=False)
     store.app.run('127.0.0.1', 1235)
