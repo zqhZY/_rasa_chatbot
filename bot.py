@@ -59,7 +59,7 @@ class ActionSearchConsume(Action):
             dispatcher.utter_message("您好，您{}共消费二十八元。".format(time))
         return []
 
-
+'''
 class MobilePolicy(KerasPolicy):
     def model_architecture(self, num_features, num_actions, max_history_len):
         """Build a Keras model and return a compiled model."""
@@ -82,17 +82,17 @@ class MobilePolicy(KerasPolicy):
 
         logger.debug(model.summary())
         return model
-
+'''
 
 def train_dialogue(domain_file="mobile_domain.yml",
-                   model_path="models/dialogue",
+                   model_path="projects/dialogue",
                    training_data_file="data/mobile_story.md"):
     agent = Agent(domain_file,
-                  policies=[MemoizationPolicy(), MobilePolicy()])
+                  policies=[MemoizationPolicy(), KerasPolicy()])
 
+    training_data = agent.load_data(training_data_file)
     agent.train(
-        training_data_file,
-        max_history=2,
+        training_data,
         epochs=200,
         batch_size=16,
         augmentation_factor=50,
@@ -101,7 +101,6 @@ def train_dialogue(domain_file="mobile_domain.yml",
 
     agent.persist(model_path)
     return agent
-
 
 def train_nlu():
     from rasa_nlu.converters import load_data
@@ -115,19 +114,18 @@ def train_nlu():
 
     return model_directory
 
-
 def run_ivrbot_online(input_channel=ConsoleInputChannel(),
-                      interpreter=RasaNLUInterpreter("models/ivr/demo"),
+                      interpreter=RasaNLUInterpreter("projects/ivr_nlu/demo"),
                       domain_file="mobile_domain.yml",
                       training_data_file="data/mobile_story.md"):
     agent = Agent(domain_file,
                   policies=[MemoizationPolicy(), KerasPolicy()],
                   interpreter=interpreter)
 
-    agent.train_online(training_data_file,
+    training_data = agent.load_data(training_data_file)
+    agent.train_online(training_data,
                        input_channel=input_channel,
-                       max_history=2,
-                       batch_size=50,
+                       batch_size=16,
                        epochs=200,
                        max_training_samples=300)
 
@@ -135,8 +133,8 @@ def run_ivrbot_online(input_channel=ConsoleInputChannel(),
 
 
 def run(serve_forever=True):
-    agent = Agent.load("models/dialogue",
-                       interpreter=RasaNLUInterpreter("models/ivr/demo"))
+    agent = Agent.load("projects/dialogue",
+                       interpreter=RasaNLUInterpreter("projects/ivr_nlu/demo"))
 
     if serve_forever:
         agent.handle_channel(ConsoleInputChannel())
