@@ -19,7 +19,7 @@ pip install rasa_core  (版本0.9.0+)
 ```
 pip install -U scikit-learn sklearn-crfsuite
 pip install git+https://github.com/mit-nlp/MITIE.git
-
+```
 
 ### dir tree
 ```
@@ -42,6 +42,7 @@ _rasa_chatbot/
 ├── README.md
 ├── tools # tools of data process
 └── train.sh # train script of rasa nlu
+
 ```
 
 ### train nlu model
@@ -79,6 +80,7 @@ $ curl -X POST localhost:1235/parse -d '{"q":"我的流量还剩多少"}' | pyth
 python bot.py train-dialogue
 ```
 模型训练完毕生成：
+
 ```
 projects
 ├── dialogue
@@ -95,7 +97,6 @@ projects
 │   ├── policy_metadata.json
 │   └── stories.md
 └── ivr_nlu
-
 ```
 
 ### train dialogue in online mode
