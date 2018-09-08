@@ -31,7 +31,7 @@ sh train.sh
 ### test rasa nlu
 ```
 $ python httpserver.py
-$ curl -X POST localhost:1235/parse -d '{"q":"我的流量还剩多少"}' | python -m json.tool | python -m json.tool
+$ curl -X POST localhost:1235/parse -d '{"q":"我的流量还剩多少"}' | python -m json.tool
 {
     'q': '我的流量还剩多少', 
     'intent': 'request_search', 
