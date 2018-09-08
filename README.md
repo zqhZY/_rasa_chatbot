@@ -1,27 +1,47 @@
 # note:
-This project is too old to run directly and will be updated soon.(由于rasa版本更新比较大，该项目比较老，以至于无法直接运行，稍后根据最新api调试后更新。)
+This project now is updated, some rasa new features will be added soon.(项目已跟进到rasa新版本，一些新特性后面尝试后补充。)
 
 # rasa_chatbot
 A Chinese task oriented chatbot in  IVR(Interactive Voice Response) domain， Implement by rasa nlu and rasa core. This is a demo with toy dataset.
 
 ### install dependency:
-- [follow here](https://github.com/zqhZY/rasa_chatbot/blob/master/INSTALL.md)
+
+#### python3
+install or update to python 3
+
+#### install rasa_core, this will install rasa nlu too, and now support chinese.
+```
+pip install rasa_core  (版本0.9.0+)
+```
+
+#### install sklearn and MITIE
+
+```
+pip install -U scikit-learn sklearn-crfsuite
+pip install git+https://github.com/mit-nlp/MITIE.git
+
 
 ### dir tree
 ```
-rasa_chatbot/
+_rasa_chatbot/
+├── bot.py
+├── chat_detection
 ├── data
-│   ├── mobile_nlu_data.json  # rasa nlu train data
-│   ├── mobile_story.md       # rasa core train data
-│   └── total_word_feature_extractor.dat  # mitie word vector feature
-├── __init__.py               # init file
-├── httpserver.py             # rasa nlu httpserver
-├── bot.py                    # ivr bot main script.
-├── mobile_domain.yml         # rasa core domain file
-├── mobile_nlu_model_config.json  # rasa nlu config file
-├── models                    # directory to save trained models
-└── README.md                 # readme file
-
+│   ├── mobile_nlu_data.json # train data json format
+│   ├── mobile_raw_data.txt # train data raw
+│   ├── mobile_story.md # toy dialogue train data 
+│   └── total_word_feature_extractor.dat # pretrained mitie word vector
+├── httpserver.py # rasa nlu httpserver
+├── __init__.py
+├── INSTALL.md
+├── ivr_chatbot.yml # rasa nlu config file
+├── mobile_domain.yml # rasa core config file
+├── projects # pretrained models
+│   ├── dialogue
+│   └── ivr_nlu
+├── README.md
+├── tools # tools of data process
+└── train.sh # train script of rasa nlu
 ```
 
 ### train nlu model
@@ -53,11 +73,31 @@ $ curl -X POST localhost:1235/parse -d '{"q":"我的流量还剩多少"}' | pyth
 }
 
 ```
-## 以下待更新
+
 ### train dialogue
 ```bash
 python bot.py train-dialogue
 ```
+模型训练完毕生成：
+```
+projects
+├── dialogue
+│   ├── domain.json
+│   ├── domain.yml
+│   ├── policy_0_MemoizationPolicy
+│   │   ├── featurizer.json
+│   │   └── memorized_turns.json
+│   ├── policy_1_KerasPolicy
+│   │   ├── featurizer.json
+│   │   ├── keras_arch.json
+│   │   ├── keras_policy.json
+│   │   └── keras_weights.h5
+│   ├── policy_metadata.json
+│   └── stories.md
+└── ivr_nlu
+
+```
+
 ### train dialogue in online mode
 ```
 python bot.py online_train
