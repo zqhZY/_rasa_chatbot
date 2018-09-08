@@ -28,6 +28,18 @@ rasa_chatbot/
 ```bash
 sh train.sh
 ```
+命令运行耗时较长，模型训练完毕生成：
+```
+projects/
+└── ivr_nlu
+    └── demo
+        ├── entity_extractor.dat
+        ├── entity_synonyms.json
+        ├── intent_classifier_sklearn.pkl
+        ├── metadata.json
+        └── training_data.json
+
+```
 ### test rasa nlu
 ```
 $ python httpserver.py
