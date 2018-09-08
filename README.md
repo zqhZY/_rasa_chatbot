@@ -13,7 +13,7 @@ install or update to python 3
 ```
 pip install rasa_core  (版本0.9.0+)
 ```
-this commend will install rasa nlu too.
+this command will install rasa nlu too.
 
 #### install sklearn and MITIE
 
