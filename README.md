@@ -11,7 +11,7 @@ install or update to python 3
 
 #### install rasa_core, this will install rasa nlu too, and now support chinese.
 ```
-pip install rasa_core  (版本0.9.0+)
+pip install rasa_core==0.9.0
 ```
 this command will install rasa nlu too.
 
