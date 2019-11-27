@@ -1,5 +1,5 @@
 # note:
-This project now is updated, new features will not be added.(~~项目已跟进到rasa新版本，一些新特性后面尝试后补充~~。rasa 版本更新太快，本项目滞后最新版本较大，仅供参考，建议根据需要阅读最新rasa文档。)
+This project now is updated, new features will not be add.(~~项目已跟进到rasa新版本，一些新特性后面尝试后补充~~。rasa 版本更新太快，本项目滞后最新版本较大，仅供参考，建议根据需要阅读最新rasa文档。)
 
 # rasa_chatbot
 A Chinese task oriented chatbot in  IVR(Interactive Voice Response) domain， Implement by rasa nlu and rasa core. This is a demo with toy dataset.
